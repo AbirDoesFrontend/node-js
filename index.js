@@ -1,3 +1,4 @@
-// run `node index.js` in the terminal
+const { generateRandomNumber, celciusToFahrenheit } = require("./utils");
 
-console.log(`Hello Node.js v${process.versions.node}!`);
+console.log(generateRandomNumber());
+console.log(celciusToFahrenheit(0));
